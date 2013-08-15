@@ -53,7 +53,7 @@ cp -pa .%{gemdir}/* \
 
 %files
 %defattr(-, root, root, -)
-%dir %{geminstdir}
+%{geminstdir}
 %{geminstdir}/lib
 %exclude %{gemdir}/cache/%{gemname}-%{version}.gem
 %{gemdir}/specifications/%{gemname}-%{version}.gemspec
